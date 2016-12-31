@@ -80,7 +80,9 @@
 #  define QT_NO_UNSHARABLE_CONTAINERS
 #endif
 
-/* These two macros makes it possible to turn the builtin line expander into a
+/*
+ * 连接2个字符串常量
+ * These two macros makes it possible to turn the builtin line expander into a
  * string literal. */
 #define QT_STRINGIFY2(x) #x
 #define QT_STRINGIFY(x) QT_STRINGIFY2(x)
