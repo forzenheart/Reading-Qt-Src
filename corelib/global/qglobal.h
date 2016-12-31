@@ -81,7 +81,7 @@
 #endif
 
 /*
- * 连接2个字符串常量
+ * 连接2个字符串常量;
  * These two macros makes it possible to turn the builtin line expander into a
  * string literal. */
 #define QT_STRINGIFY2(x) #x
